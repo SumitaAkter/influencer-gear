@@ -94,21 +94,22 @@ main{
 }
 
 .img-container{
-    margin-right: 150px;
-    margin-left: 170px;
+    margin: 0 200px;
     border-bottom: 2px solid  #e0d7d7;
     border-top: 2px solid #e0d7d7;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
     padding: 40px;
-    padding-left: 10px;
+    text-align: center;
+    align-items: center;
 }
 .img-container img{
-margin-left: 48px;
+gap: 1px;
+width: 80%;
+text-align: center;
+align-items: center;
 }
-
-
 .popular-collection h3{
     text-align: center;
     margin-left: 60px;
@@ -262,9 +263,7 @@ margin-left: 48px;
             text-align: center;
             align-items: center;
         }
-        .contact-img-container{
-            margin-right: ;
-        }
+        
         .card-container{
             width: 100%;
             margin: 0;
